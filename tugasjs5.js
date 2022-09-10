@@ -82,8 +82,6 @@
 //    };
 
 // var gambar = document.querySelectorAll("img");
-
-
 // var result = () => {
 //    for (let i = 0; i < gambar.length; i++) {
 //       for (let y = 0; y < list["images"].length; y++) {
@@ -98,5 +96,21 @@
 //       }   
 //    }
 // }
-
 // result()
+
+// coba pakai foreach
+
+// gambar.forEach(
+//     (imgtag, i, arr) => {
+//         var newList = list["images"][i];
+//         imgtag = arr[i];
+//         if(imgtag.id === newList.id){
+//             imgtag.src = newList.url;
+//             document.body.append(imgtag) 
+//             document.write("<br>");
+//             gambar[i].addEventListener("click", () => {
+//                 alert(`You clicked on the image ID : ${newList.id}`)
+//             })
+//         }
+//     }
+// )
